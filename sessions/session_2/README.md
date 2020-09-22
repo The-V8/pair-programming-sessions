@@ -10,11 +10,12 @@ The tricky thing here is that a leap year in the Gregorian calendar occurs:
 
 Examples:
 
-- 1997 is not a leap year
-- 1996 is a leap year
-- 1900 is not a leap year
-- 2000 is a leap year
+- 1904 is a leap year
+- 1986 is not a leap year
+- 2008 is a leap year
 - 2100 is not a leap year
+- 2000 is a leap year
+- 1900 is not a leap year
 
 For a delightful, four minute explanation of the whole leap year phenomenon, go watch this [youtube video](https://www.youtube.com/watch?v=xX96xng7sAE)
 
