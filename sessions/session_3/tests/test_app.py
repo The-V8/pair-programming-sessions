@@ -6,16 +6,22 @@ ABUNDANT_NUMBERS = [12, 24]
 DEFICIENT_NUMBERS = [5, 7, 13, 23]
 
 
-def test_placeholder():
-    assert True
-
-
 def test_perfect_numbers():
-    # TODO: Finish this test
-    for number in PERFECT_NUMBERS:
-        assert get_aliquot_sum(number)
+    for num in PERFECT_NUMBERS:
+        aliquot_sum = get_aliquot_sum(num)
+        assert aliquot_sum == num, (
+            f"number {num} is not equal to its aliquot sum {aliquot_sum}")
 
 
-# TODO: Add a test for abundant numbers
+def test_abundant_numbers():
+    for num in ABUNDANT_NUMBERS:
+        aliquot_sum = get_aliquot_sum(num)
+        assert aliquot_sum > num, (
+            f"number {num} isn't smaller than its aliquot sum {aliquot_sum}")
 
-# TODO: Add a test for deficient numbers
+
+def test_deficient_numbers():
+    for num in DEFICIENT_NUMBERS:
+        aliquot_sum = get_aliquot_sum(num)
+        assert aliquot_sum < num, (
+            f"number {num} isn't larger than its aliquot sum {aliquot_sum}")
