@@ -1,6 +1,9 @@
 def __get_factor_list(number):
     '''
-    Takes an pos integer number and returns its factors as a list
+    Takes an pos integer number and returns its factors as a list.
+
+    Hint: This is a private method that helps with calculating the 
+          aliquot sum.
     '''
     # TODO: Finish this method
     return 1
