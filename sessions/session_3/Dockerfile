@@ -4,8 +4,11 @@ COPY . session3/.
 
 WORKDIR /session3
 
-RUN pip install -r requirements.txt \
-    && apk update \
+# install make
+RUN apk update \
     && apk add make
 
-CMD ["make"]
+# run the init, lint and tests with make
+RUN make
+
+CMD ["python", "run.py"]

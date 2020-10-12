@@ -16,7 +16,11 @@ Our application should be able to check, if a number is perfect, abundant or def
 
 ## Running the application
 
-Run the application and tests before by building and running the docker image:
+Run the application and tests before by building and running the docker image.
+
+The tests will run, when the container is built, through the Makefile.
+
+The application will run after the *docker run* command.
 
 ```bash
 cd sessions/session_3/

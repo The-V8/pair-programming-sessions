@@ -1,4 +1,4 @@
-all: run test lint init
+all: test lint init
 
 init:
 	pip install -r requirements.txt
@@ -8,6 +8,3 @@ lint: init
 
 test: lint
 	pytest
-
-run: test
-	python run.py
