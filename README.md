@@ -10,7 +10,7 @@ The objective is to have one or multiple sessions to get everyone on the collabo
 - each pair gets a challenge and a combined practice to adapt
 - after every session, we come together and share our outcomes
 - in the next session, driver/navigators are switched
-- one session of 30min per day for 3 days in 3 consecutive weeks (1st session with intro: total ~45min)
+- flexible sessions. We tested the format of having one session of 30min per week in 3 consecutive weeks (1st session with intro: total ~45min); but this can be adapted to your teams needs
 
 ## Additional Tools
 
